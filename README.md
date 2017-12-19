@@ -1,6 +1,6 @@
 # Four-Point-Invoice-Transform-with-OpenCV
 
-This code is inspired from <a hred="https://www.pyimagesearch.com/2014/08/25/4-point-opencv-getperspective-transform-example/">[4 Point OpenCV getPerspective Transform Example]</a>
+This code is inspired from <a href="https://www.pyimagesearch.com/2014/08/25/4-point-opencv-getperspective-transform-example/">[4 Point OpenCV getPerspective Transform Example]</a>
 
 I have customized the code of <a href="https://twitter.com/PyImageSearch">Adrian</a> to find <b>4 points</b> of document or rectangle dynamically. Here i have added <I>findLargestCountours</I> and <I>convert_object</I>, where convert_object is our driver method which actually doing image processing and getting all 4 point rectangles from image. After getting all 4 point rectangle list <I>findLargestCountours<I> method finding  largest countour in list.
 
